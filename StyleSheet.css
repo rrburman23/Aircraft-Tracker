@@ -1,0 +1,63 @@
+﻿html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+#styleMenu {
+    background: rgb(49, 49, 49);
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.mapboxgl-marker {
+    background-image: url("planeMarker.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+    max-height: 500px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: Arial;
+}
+
+.mapboxgl-ctrl-geocoder {
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    width: 800px;
+    margin-top: 0;
+}
+
+.mapboxgl-ctrl-geocoder>div {
+    min-width: 100%;
+    margin-left: 0;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Aircraft Tracker</title>
+
+    <link rel="stylesheet" href="StyleSheet.css">
+
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- Geocoder plugin -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>0
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+
+    <!-- Turf.js plugin -->
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+
+    <div id="styleMenu">
+        <input id="rb23/ckvcr41l82igb15o20zlmtz6i" type="radio" name="rtoggle" value="Blue" checked="checked">
+        <label for="rb23/ckvcr41l82igb15o20zlmtz6i">Blue</label>
+
+        <input id="mapbox/light-v10" type="radio" name="rtoggle" value="light">
+        <label for="mapbox/light-v10">Light</label>
+
+        <input id="mapbox/dark-v10" type="radio" name="rtoggle" value="dark">
+        <label for="mapbox/dark-v10">Dark</label>
+
+        <input id="mapbox/streets-v11" type="radio" name="rtoggle" value="streets">
+        <label for="mapbox/streets-v11">Streets</label>
+
+        <input id="mapbox/outdoors-v11" type="radio" name="rtoggle" value="outdoors">
+        <label for="mapbox/outdoors-v11">Outdoors</label>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>
